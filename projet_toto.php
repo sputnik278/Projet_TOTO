@@ -32,9 +32,7 @@
 		add.php
 		edit.php
 
-- inc/config.php :
-	* créer un tableau $config avec en valeurs les données nécessaires à la connexion à la DB (host, username, password, database)
-	* inclure les fichiers db.php et functions.php
+
 	
 - inc/db.php :
 	* écrire le code de connexion à la base de données (PDO + dsn) en se basant sur les valeurs du tableau $config
