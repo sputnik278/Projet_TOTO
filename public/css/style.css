@@ -1,4 +1,40 @@
+/*Background body*/
+body{
+  background: #F5F5F5;
+}
+/* Navbar*/
+.bg-black{
+  background-color: black;
+}
+/*Footer*/
 .copyright{
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
+	color: white;
 }
+/* Fucking sticky footer */
+html {
+  	position: relative;
+  	min-height: 100%;
+}
+.footer {
+	line-height: 0.9;
+  	position: absolute;
+  	bottom: 0px;
+  	height: 40px;
+  	width: 100%;
+  	background-color: black;
+}
+/*Cart*/
+.card-header{
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+.card-body{
+  border: 1px solid black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+

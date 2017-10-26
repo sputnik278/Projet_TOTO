@@ -23,13 +23,12 @@
     <!--<link rel="stylesheet" type="text/css" href="lib/reset.css">-->
     <!--<link rel="stylesheet" type="text/css" href="lib/jquery-ui/jquery-ui.min.css">-->
     <!--<link rel="stylesheet" type="text/css" href="lib/jquery-ui/jquery-ui.structure.min.css">-->
-    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-
+    <!--<link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css">-->
     <!--CDN-->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">-->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-  <title>Web TOTO</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Web TOTO</title>
 </head>
 <body>
 <?php
@@ -40,7 +39,7 @@
     ** Toutes les étudiants => list.php
     ** Ajout d'un étudiant => add.php */
 ?>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

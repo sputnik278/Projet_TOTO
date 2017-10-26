@@ -14,6 +14,7 @@ require_once __DIR__.'/../view/header.php';
 	* dans la vue, afficher les villes et leur nombres d'étudiants, sous forme de tableau (<table>)
 	
 */
+
 /* -- Part 7 = Home --
 ----------------------
 	
@@ -47,7 +48,6 @@ require_once __DIR__.'/../view/header.php';
 
 //- public/index.php
 //	* en fin de script, inclure les vues "header", "home" & "footer"
-
 require_once __DIR__.'/../view/home.php';
 require_once __DIR__.'/../view/footer.php';
 
