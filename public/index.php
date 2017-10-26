@@ -4,7 +4,7 @@
 
 // inclure la config-php
 require_once __DIR__.'/../inc/config.php';
-
+require_once __DIR__.'/../view/header.php';
 /* -- Option 1 = home --
 ------------------------
 	
@@ -47,7 +47,7 @@ require_once __DIR__.'/../inc/config.php';
 
 //- public/index.php
 //	* en fin de script, inclure les vues "header", "home" & "footer"
-require_once __DIR__.'/../view/header.php';
+
 require_once __DIR__.'/../view/home.php';
 require_once __DIR__.'/../view/footer.php';
 

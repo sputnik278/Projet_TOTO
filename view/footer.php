@@ -5,6 +5,13 @@
     <div class="col-sm">
     </div>
     <div class="col-sm">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
        <!-- * mettre un footer avec un copyright et l'année courante => © 2017 | Tous droits réservés -->
       <p class="copyright">&copy; <?php ?> 2017 | Tous droits réservés</p>
     </div>
