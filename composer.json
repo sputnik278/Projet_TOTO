@@ -1,0 +1,14 @@
+{
+    "name": "sputnik278/web-toto",
+    "description": "Gestion des etudiants des formation webforce3",
+    "type": "project",
+    "authors": [
+        {
+            "name": "sputnik278",
+            "email": "sputniklu@gmail.com"
+        }
+    ],
+    "require": {
+        "social-links/social-links": "^1.13"
+    }
+}

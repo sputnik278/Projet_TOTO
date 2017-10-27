@@ -8,6 +8,12 @@
 	* récupérer toutes les informations sur tous les étudiants en DB
 	* inclure la vue correspondant à la page "list"
 	* afficher les informations (id, nom, prénom, email et date de naissance) sous forme de tableau (<table>). Attention, l'affichage se fait dans la vue (view)
+
+	/* -- Part 3 = Page student --
+----------------------------
+
+- public/list.php :
+	* pour chaque ligne du tableau (<table>), ajouer un bouton (lien) qui envoie sur la page student
 */
 ?>
 <br><br><br>
@@ -26,6 +32,8 @@
 			    	<th scope="col">Prénom</th>
 			    	<th scope="col">Email</th>
 			    	<th scope="col">Date de naissance</th>
+			    	<th scope="col">Détails</th>
+
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -36,6 +44,7 @@
 			  		<td><?php echo $valueStudent['stu_firstname'] ?></td>
 			  		<td><?php echo $valueStudent['stu_email'] ?></td>
 			  		<td><?php echo $valueStudent['stu_birthdate'] ?></td>
+			  		<td><a class="btn btn-dark" href="student.php?id=<?php echo $valueStudent['stu_id'] ?>" role="Infos étudiant">Info étudiant</a></td> 
 			  	</tr>
 			  </tbody>
 			<?php endforeach; ?>

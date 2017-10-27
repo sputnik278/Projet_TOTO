@@ -8,7 +8,10 @@
       <div class="col-sm">
         <br>
          <!-- * mettre un footer avec un copyright et l'année courante => © 2017 | Tous droits réservés -->
-        <p class="copyright">&copy; <?php echo date("Y"); ?> | Tous droits réservés</p>
+        <p class="copyright">&copy; <?php echo date("Y"); ?> | Tous droits réservés</p><br>
+        <a class="copyright" href="<?= $socialLinksPage->facebook->shareUrl ?>" Facebook I</a>
+        <a class="solcialLink" href="<?= $socialLinksPage->twitter->shareUrl ?>"I Twitter I</a>
+        <a class="solcialLink" href="<?= $socialLinksPage->linkedin->shareUrl ?>" LinkedIn</a>
       </div>
       <div class="col-sm">
     

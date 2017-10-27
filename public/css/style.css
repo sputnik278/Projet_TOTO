@@ -18,11 +18,11 @@ html {
   	min-height: 100%;
 }
 .footer {
-	line-height: 0.9;
+	  line-height: 0.6;
   	position: absolute;
   	bottom: 0px;
-  	height: 40px;
-  	width: 100%;
+  	height: 100px;
+    width: 100%;
   	background-color: black;
 }
 /*Cart*/
@@ -36,5 +36,9 @@ html {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+.solcialLink{
+  color: white;
+}
+
 
 
