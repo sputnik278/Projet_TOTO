@@ -1,5 +1,5 @@
-<br><br><br>
-<div class="container-fluid">
+
+<div class="container-fluid navi">
 	<div class="card">
 	  <div class="card-header">
 	    <h3>Viev Home</h3>

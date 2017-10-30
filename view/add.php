@@ -1,45 +1,48 @@
-<form>
+<div class="container">
+<form action="" method="post">
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <label for="prenom">Prénom: </label>
+      <input type="text" class="form-control" id="prenom" placeholder="Prénom" name="stu_firstname" value="<?php $stu_firstname; ?>">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      <label for="nomDeFamille">Mon de famille: </label>
+      <input type="text" class="form-control" id="nomDeFamille" placeholder="Nom de famille" name="stu_lastname" value="<?php $stu_lastname; ?>">
     </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
+      <label for="dateDeNaissance">Date de naissance: </label>
+      <input type="text" class="form-control" id="dateDeNaissance" placeholder="Date de naissance séparé de YYYY-MM-DD " name="stu_birthdate" value="<?php $stu_birthdate; ?>">
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
+    <div class="form-group col-md-6">
+      <label for="eMail">Email: </label>
+      <input type="email" class="form-control" id="email" placeholder="Email" name="stu_email" value="<?php $stu_email; ?>">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Sympathie</label>
+      <input type="text" class="form-control" id="sympathie" placeholder="Niveau de sympathie de 1 à 5" name="stu_friendliness" value="<?php $stu_friendliness; ?>">
+    </div>
+  </div>
+    <div class="form-group col-md-5">
+      <label for="inputState">Session de formation: </label>
+      <select id="inputState" class="form-control" name="tra_name">
+        <option selected disabled>Choisir la session...</option>
+        <option value=""><?php echo $listSessionPD['ses_number']?></option>
       </select>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
+    <div class="form-group col-md-5">
+      <label for="inputState">Ville de la session: </label>
+      <select id="inputState" class="form-control">
+        <option selected disabled>Choisir la ville...</option>
+        <option><?php echo $listLocationPD; ?></option>
+      </select>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-dark" name="tra_name">Ajouter</button>
   </div>
-  <div class="form-group">
-    <div class="form-check">
-      <label class="form-check-label">
-        <input class="form-check-input" type="checkbox"> Check me out
-      </label>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
+  
 </form>
+</div>

@@ -16,8 +16,7 @@
 	* pour chaque ligne du tableau (<table>), ajouer un bouton (lien) qui envoie sur la page student
 */
 ?>
-<br><br><br>
-<div class="container-fluid">
+<div class="container-fluid navi">
 	<div class="card">
 	  <div class="card-header">
 	    <h3>Public Liste</h3>
@@ -54,7 +53,6 @@
 	  </div>
 	</div>
 </div>
-<br><br><br>
 
 
 

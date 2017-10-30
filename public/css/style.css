@@ -6,6 +6,9 @@ body{
 .bg-black{
   background-color: black;
 }
+.container .container-fluid {
+    padding-top: 100px; /* Add a top margin to avoid content overlay */
+}
 /*Footer*/
 .copyright{
 	text-align: center;
